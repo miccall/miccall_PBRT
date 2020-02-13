@@ -11,3 +11,4 @@ CTestTestfile.cmake
 _deps
 /out/build/x64-Debug
 /.vs
+/build

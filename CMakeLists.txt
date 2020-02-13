@@ -341,10 +341,13 @@ INCLUDE_DIRECTORIES ( src/ext/ptex/src/ptex )
 # On to pbrt...
 SET ( PBRT_CORE_SOURCE
  src/main/pbrt.cpp
+ src/core/geometry.cpp
 )
 
 SET ( PBRT_CORE_HEADERS
   src/core/pbrt.h
+  src/core/geometry.h
+  src/core/stringprint.h
 )
 
 FILE ( GLOB PBRT_SOURCE
