@@ -342,12 +342,20 @@ INCLUDE_DIRECTORIES ( src/ext/ptex/src/ptex )
 SET ( PBRT_CORE_SOURCE
  src/main/pbrt.cpp
  src/core/geometry.cpp
+ src/core/transform.cpp
+ src/core/interaction.cpp
+ src/core/shape.cpp
+
 )
 
 SET ( PBRT_CORE_HEADERS
   src/core/pbrt.h
   src/core/geometry.h
+  src/core/transform.h
   src/core/stringprint.h
+  src/core/interaction.h
+  src/core/medium.h
+  src/core/shape.h
 )
 
 FILE ( GLOB PBRT_SOURCE
